@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Echo something
-              run: echo "This is something"
+              run: eccho "This is something"
 
             - name: Multiline script
               run: |
